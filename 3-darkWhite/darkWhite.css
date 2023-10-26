@@ -1,0 +1,28 @@
+.btn {
+  font-size: 50px;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  border-radius: 6rem;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.dark {
+  background-color: green;
+  color: red;
+}
+
+.dark .btn {
+  background-color: white;
+  color: black;
+}
