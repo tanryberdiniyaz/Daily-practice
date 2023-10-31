@@ -1,0 +1,71 @@
+body{
+padding: 0;
+margin: 0;
+font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.container{
+    width: 50rem;
+    margin-top: 15rem;
+    
+   
+}
+
+.line{
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.profile{
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.result{
+    color: rgb(237, 235, 235);
+    font-size: 24px;
+
+}
+
+
+.circle{
+   width: 200px;
+   height: 200px;
+   background-color: aqua;
+   margin: auto;
+   text-align: center;
+   justify-content: center;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.circle > p:first-child{
+    color: white;
+    font-size: 70px;
+    margin-bottom: -10px;
+    margin-top: 2rem;
+}
+
+.great{
+    font-size: 30px;
+    margin-top: 2rem;
+    color: rgb(228, 228, 228);
+}
+
+.paragraph{
+    color: rgb(218, 217, 217);
+    margin: 3rem;
+
+    
+
+}
