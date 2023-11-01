@@ -8,45 +8,33 @@ font-family: 'Hanken Grotesk', sans-serif;
 .container{
     width: 50rem;
     margin-top: 15rem;
-    
-   
 }
 
 .line{
     border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
+    box-shadow: 1px 4px 9px hsl(252, 100%, 67%);
 }
 
 .profile{
+    background-image: linear-gradient(to top,  hsl(241, 81%, 54%),  hsl(252, 100%, 67%));
     border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
 }
 
 .result{
-    color: rgb(237, 235, 235);
+    color: rgb(155, 155, 155);
     font-size: 24px;
-
 }
 
 
 .circle{
    width: 200px;
    height: 200px;
-   background-color: aqua;
+   background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0)
+   );
    margin: auto;
    text-align: center;
    justify-content: center;
    border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
 }
 
 .circle > p:first-child{
@@ -55,6 +43,10 @@ font-family: 'Hanken Grotesk', sans-serif;
     margin-bottom: -10px;
     margin-top: 2rem;
 }
+.circle > p:nth-child(2){
+    color: rgb(155, 155, 155);
+}
+
 
 .great{
     font-size: 30px;
@@ -63,9 +55,65 @@ font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .paragraph{
-    color: rgb(218, 217, 217);
+    color: rgb(155, 155, 155);
     margin: 3rem;
+    margin-top: .5rem;
+}
 
+.summary{
+    font-weight: bold;
+    text-align: start;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+
+.div1{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 97%);
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    padding: 14px;
     
+}
 
+.div2{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(38, 100%, 96%);
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 14px;
+    border-radius: 10px;
+}
+.div3{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 96%);
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    padding: 14px;
+}
+.div4{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 100%, 94%);
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    padding: 14px;
+    
+}
+
+.btn{
+    background-color:hsl(224, 30%, 27%);
+    color: white;
+    width: 80%;
+    margin: 1.5rem;
+    margin-top: .5rem;
+    padding: .7rem;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color:hsl(234, 85%, 45%) ;
+    color: white;
 }
