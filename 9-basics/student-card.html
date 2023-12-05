@@ -7,12 +7,12 @@
 </head>
 <body>
     <table border="1">
-        <thead>
-            <tr>
+        <thead style="background-color:rgb(166, 173, 254)">
+            <tr style="text-align: center;">
                <td colspan="3"><b>MY HERO ACADEMY </b></td> 
             </tr>
             <tr>
-              <td colspan="3"> <b>Öğrenci kimlik kartı</b></td> 
+              <td style="text-align: center;" colspan="3"> <b>Öğrenci kimlik kartı</b></td> 
             </tr>
         </thead>
         <tbody>
@@ -35,8 +35,293 @@
             </tr>
         </tbody>
     </table>
+<br>
+<br>
+<br>
+<br>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Alışveriş tablosu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tür</td>
+                <td>Ürün</td>
+                <td>Fiyat</td>
+                <td>İndirim Oranı</td>
+            </tr>
+            
+            <tr>
+                <td rowspan="5">Beyaz Eşya</td>
+                <td>Buzdolabı</td>
+                <td>1750</td>
+                <td rowspan="3">%25</td>
+            </tr>
+            <tr>
+                <td>Fırın</td>
+                <td>650</td>
+            </tr>
+            <tr>
+                <td>Çamaşır Makinesi</td>
+                <td>1100</td>
+            </tr>
+            <tr>
+                <td>Bulaşık Makinesi</td>
+                <td>750</td>
+                <td rowspan="2">%35</td>
+            </tr>
+            <tr>
+                <td>Dondurucu</td>
+                <td>600</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Küçük Ev Aletleri</td>
+                <td>Mikser</td>
+                <td>138</td>
+                <td rowspan="2">%10</td>
+            </tr>
+            <tr>
+                <td>Saç Kurutma</td>
+                <td>151</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td>Adınız:</td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Soyadınız:</td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>E-Mail Adresiniz:</td>
+            <td> <input type="text"></td>
+        </tr>
+        <tr>
+            <td>Mesajınız:</td>
+            <td> <input type="search"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button>Kaydet</button></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td>Adı</td>
+            <td><input type="text"></td>
+            <td rowspan="3">Hobiler</td>
+            <td><input type="checkbox">Futbol</td>
+        </tr>
+        <tr>
+            <td>Soyadı</td>
+            <td><input type="text"></td>
+            <td><input type="checkbox">Basketbol</td>
+        </tr>
+        <tr>
+            <td>Cinsiyet</td>
+            <td>
+                <input type="radio"> Erkek
+                <input type="radio"> Kadın
+            </td>
+            <td><input type="checkbox">Voleybol</td>
+        </tr>
+        <tr>
+            <td>İlçe</td>
+            <td><input type="text" name="" id=""></td>
+            <td>Profil Fotoğrafı</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>E-posta</td>
+            <td><input type="email" name="" id=""></td>
+            <td>Doğum Tarihi</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Web Sitesi</td>
+            <td><input type="email" name="" id=""></td>
+            <td rowspan="3">Adress</td>
+            <td rowspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button>Gnder</button></td>
+        </tr>
+
+    </table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+    <form action="">
+        <table border="1">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><label for="name">Adı</label></td>
+                            <td><input type="text"id="name" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="surname">Soyadı</label></td>
+                            <td><input type="text"id="surname" ></td>
+                        </tr>
+                        <tr>
+                            <td>Cinsiyet</td>
+                            <td>
+                                <input type="radio"  name="cinsi" id="erkek"> 
+                                <label for="erkek"  >Erkek</label>
+                                <input type="radio"  name="cinsi" id="kadin"> 
+                                <label for="kadin" >Kadın</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Doğum Yeri</td>
+                            <td>
+                                <select name="dyeri" id="dyeri">
+                                    <option disabled  selected >Seçiniz</option>
+                                    <option value="Tejen">Tejen</option>
+                                    <option value="Ahal">Ahal</option>
+                                    <option value="Lebap">Lebap</option>
+                                    <option value="Halaç">Halaç</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="email">E-posta</label></td>
+                            <td><input type="email" id="email" placeholder="abc@techproed.com"></td>
+                        </tr>
+                        <tr>
+                            <td>Linkedİn</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="number">Telefon</label></td>
+                            <td><input type="number" id="number" placeholder="901234567891"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Gönder</button></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Proğramlama <br> Dilleri</td>
+                            <td>
+                                <input type="checkbox" name="python" id="python">
+                                <label for="python">python</label> <br>
+
+                                <input type="checkbox" name="javascript" id="javascript">
+                                <label for="javascript">javascript</label> <br>
+
+                                <input type="checkbox" name="java" id="java">
+                                <label for="java">java</label> <br>
+
+                                <input type="checkbox" name="php" id="php">
+                                <label for="php">php</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Resume yükle</td>
+                            <td><input type="file" name="" id=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>Başvuru Tarihi</td>
+                            <td><input type="date"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="adres">Adres</label></td>
+                            <td><textarea name="adres" id="adres" cols="30" rows="10"></textarea></td>
+                        </tr>
+                       
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    a
 </body>
 </html>
