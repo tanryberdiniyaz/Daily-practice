@@ -1,0 +1,34 @@
+body{
+    background-image: url(../../0-assets/images/resim1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: aqua;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover{
+    color: red;
+}
+
+
+
+div{
+    background-color: antiquewhite;
+    padding: 0.2rem 1rem;
+    margin: 1rem 0;
+}
+
+table{
+    background-color: white;
+    text-align: start;
+}

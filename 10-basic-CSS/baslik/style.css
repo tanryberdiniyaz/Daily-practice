@@ -1,0 +1,53 @@
+body{
+    background-image: url(../../0-assets/images/more-leaves.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    background-color: rgb(255, 173, 114);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: red;
+}
+
+section{
+    width: 400px;
+    background-color: rgb(255, 243, 198);
+}
+
+section h1, h2{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+section p {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+section ul li{
+    padding-bottom: 1rem;
+    list-style-type:"🎁  ";
+    
+}
+

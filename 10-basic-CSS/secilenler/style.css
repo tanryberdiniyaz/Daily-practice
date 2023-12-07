@@ -1,0 +1,50 @@
+body{
+    font-family: 'Bitter', serif;
+}
+
+h1{
+    font-style: italic;
+    background-color: rgb(142, 213, 171);
+    text-align: center;
+    padding: .5rem;
+    border-radius: 15px;
+    font-weight: bold;
+    
+}
+
+
+section{
+    border: 3px solid black;
+    background-color: bisque;
+    border-radius: 15px;
+   
+}
+
+section img{
+    width: 50%;
+    border: 3px solid red;
+    border-radius: 15px;
+
+}
+
+section div{
+    text-align: center;
+}
+
+section div a{
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+
+
+h2{
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+section p{
+    text-align: center;
+    padding: 0 1rem;
+}

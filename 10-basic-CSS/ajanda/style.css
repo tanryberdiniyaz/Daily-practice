@@ -1,0 +1,43 @@
+body{
+    background-image: url(../../0-assets/images/resim2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 50px;
+}
+
+ h2{
+    background-color: white;
+    text-align: center;
+}
+
+.aylar{
+    background-color: plum;
+    width: 250px;
+    padding-bottom: 0.1rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+
+.mevsimler{
+    background-color: rgb(255, 255, 170);
+    width: 250px;
+    padding-bottom: 0.1rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+
+}
+.gunler{
+    background-color: rgb(26, 205, 255);
+    width: 250px;
+    padding-bottom: 0.1rem;
+    margin-left: 2rem;
+
+}
