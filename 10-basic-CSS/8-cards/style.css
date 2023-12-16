@@ -1,0 +1,50 @@
+.first{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    border: 10px solid rgb(0, 121, 99);
+    width: 400px;
+    margin: 1rem;
+
+}
+
+.container img{
+    width: 350px;
+    height: 250px;
+    padding-left: 1.6rem;
+    padding-top: 1.6rem;
+}
+
+.container h3{
+    text-align: center;
+}
+.container .content{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container div{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container div p{
+    color: burlywood;
+    font-size: 20px;
+}
+
+
+.container a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    background-color: rgb(92, 62, 62);
+    padding: 0.7rem;
+}
+
+.container a:hover{
+    background-color: rgb(162, 164, 164);
+    color: black;
+}
