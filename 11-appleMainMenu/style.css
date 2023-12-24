@@ -32,6 +32,11 @@ header a i{
 main{
     text-align: center;
     margin-top: 1rem;
+    height: 700px;
+}
+
+main .firstImage{
+    width: 570px;
 }
 
 main h4{
@@ -46,7 +51,7 @@ main p{
 }
 
 main .mainParagraph{
-    margin-top: -60px;
+    margin-top: -20px;
     margin-bottom: 5rem;
 }
 
@@ -100,12 +105,11 @@ color: white;
     margin: 10px;
     border-radius: 20px;
     padding: 10px;
-    background-color: rgb(229, 2, 2);
+    background-color: rgb(255, 255, 255);
 }
 
-.video1 .video1-Paragraph div.buttons button:hover{
 
-}
+
 
 
 
@@ -113,5 +117,14 @@ color: white;
     text-decoration: none;
     color: black;
     font-size: 17px;
+}
+
+.iPhone15-Pro{
+    margin-top: 70px;
+}
+
+.iPhone15-Pro a img{
+    width: 100%;
+    height: 690px;
 }
 
