@@ -110,21 +110,123 @@ color: white;
 
 
 
-
-
-
 .video1-Paragraph :last-child button a{
     text-decoration: none;
     color: black;
     font-size: 17px;
 }
 
+
+
 .iPhone15-Pro{
     margin-top: 70px;
+    text-align: center;
 }
 
 .iPhone15-Pro a img{
     width: 100%;
-    height: 690px;
+    height: 580px;
 }
+
+.iPhone15-Pro-Paragraph{
+    margin-top: -36rem;
+}
+
+.iPhone15-Pro-Paragraph h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+.iPhone15-Pro-Paragraph :nth-child(2){
+font-size: 28px;
+margin-top: -10px;
+margin-bottom: 10px;
+color: white;
+}
+
+.iPhone15-Pro-Paragraph:last-child a {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2797fe;
+}
+.iPhone15-Pro-Paragraph:last-child a i{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+.sixs-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 28rem;
+}
+
+.iPhone-15 img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+}
+
+
+.macbook-pro img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+
+
+.sixs-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.apple-watch img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+
+.apple-airpods img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+
+
+.sixs-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.ipad img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
+
+.macbook-air img{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+
+}
+
 
