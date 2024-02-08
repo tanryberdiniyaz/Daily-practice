@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243,229,216);
+
+}
+
+.general-div{
+    width: 60%;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+.omlet img{
+    width: 100%;
+    border-radius: 15px;
+   
+}
+
+.prep-time{
+    background-color: rgb(254,246,252);
+    padding: 8px;
+    border-radius: 15px;
+
+}
+.prep-time h3{
+    margin-left: 20px;
+    color: rgb(111,53,79);
+}
+
+.prep-time ul li{
+    margin: 10px;
+}
+
+.ingred li{
+    margin: 10px;
+
+}
+
+.instruc ol li{
+    margin: 10px;
+    
+}
+
+
+ 
+.nutrit div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ingred h2, .instruc h2, .nutrit h2, .nutrit div span:nth-child(2){
+    color: rgb(132,68,55);
+}
