@@ -1,0 +1,112 @@
+
+
+*{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+
+
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+      
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f3eae3;
+}
+
+
+.genel{
+    display: flex;
+    width: 600px;
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color:#ffffff ;
+   
+}
+
+.genel img{
+    width: 300px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+   
+}
+
+
+.infos{
+    text-align: start;
+    padding: 20px;
+}
+
+.infos h3{
+    opacity: 0.4;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.infos h1{
+    font-size: 35px;
+    margin-top: 2px;
+}
+
+
+.infos p{
+    opacity: 0.6;
+}
+
+.infos div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos div span:first-child{
+color: #3d8169;
+font-weight: 700;
+font-size: 30px;
+}
+
+.infos div span:nth-child(2){
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 20px;
+    opacity: 0.6;
+    
+
+}
+
+.cart{
+    text-align: center;
+    border-radius: 6px;
+    background-color: #3d8169;
+    color: #ffffff;
+    padding: 17px;
+    margin-top: 30px;
+    
+}
+
+.cart:hover{
+    background-color: #0a3525;
+}
+
+
+.cart i{
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+
+
+
