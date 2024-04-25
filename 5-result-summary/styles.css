@@ -1,4 +1,4 @@
-body{
+/* body{
 padding: 0;
 margin: 0;
 font-family: 'Hanken Grotesk', sans-serif;
@@ -116,4 +116,169 @@ font-family: 'Hanken Grotesk', sans-serif;
 .btn:hover{
     background-color:hsl(234, 85%, 45%) ;
     color: white;
+} */
+
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.general-div{
+    display: flex;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow:  0.1px 0.1px 15px  blue;
+}
+
+
+.general-div .result-part{
+    width: 50%;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.general-div .result-part .h-2{
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.general-div .result-part .circle{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px 50px;
+    padding: 20px;
+    background-image: linear-gradient(to top,  hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    
+    
+}
+
+.general-div .result-part .circle h2{
+    font-size: 50px;
+}
+
+.general-div .result-part .circle p{
+    margin-top: -16px;
+    opacity: 0.5;
+}
+
+.general-div .result-part .first-p{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: -10px;
+
+}
+
+.general-div .result-part .second-p{
+    text-align: center;
+    margin: -10px 20px;
+    color: white;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+
+
+.summary-part{
+    width: 50%;
+    padding: 20px;
+}
+
+
+.summary-part .percents{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+}
+
+.summary-part .percents:first-child{
+    background-color: #fef6f5;
+}
+
+.summary-part .percents:first-child p:nth-child(1){
+    color: hsl(0, 100%, 67%);
+}
+.summary-part .percents:nth-child(2){
+    background-color: #fefaf0;
+}
+
+.summary-part .percents:nth-child(2) p:nth-child(1){
+    color: hsl(39, 100%, 56%);
+}
+
+.summary-part .percents:nth-child(3){
+    background-color: #f3fbfa;
+}
+
+.summary-part .percents:nth-child(3) p:nth-child(1){
+    color: hsl(166, 100%, 37%);
+}
+.summary-part .percents:nth-child(4){
+    background-color: #f3f3fd;
+}
+
+.summary-part .percents:nth-child(4) p:nth-child(1){
+    color: hsl(234, 85%, 45%);
+}
+
+.summary-part .btn{
+    display: block;
+    background-color: #303b59;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+/* ? Mobile design */
+
+@media only screen and (max-width: 600px) {
+    .general-div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general-div .result-part {
+        width: 100%;
+    }
+
+    .general-div .result-part .circle{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin: 20px 110px;
+    padding: 20px;
+    }
+
+
+
+
+
+
 }
