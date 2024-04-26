@@ -261,10 +261,14 @@ body{
     .general-div{
         display: flex;
         flex-direction: column;
+        height: 100%;
     }
 
     .general-div .result-part {
         width: 100%;
+        height: 40%;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
     }
 
     .general-div .result-part .circle{
@@ -272,11 +276,37 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 50%;
-    margin: 20px 110px;
+    margin: 20px 120px;
     padding: 20px;
     }
 
 
+    .general-div .result-part .first-p{
+        margin-top: 20px;
+    }
+
+    .general-div .result-part .second-p{
+        margin: 0 40px;
+        font-size: 18px;
+    }
+
+
+    .general-div .summary-part{
+        height: auto;
+        width: 100%;
+    }
+
+    .general-div .summary-part .percents{
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .general-div .summary-part .btn{
+        padding: 17px;
+        border-radius: 30px;
+        font-size: 18px;
+    }
 
 
 
