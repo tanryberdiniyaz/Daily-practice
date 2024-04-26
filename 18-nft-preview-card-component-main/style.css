@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    
+}
+
+.general-div{
+    margin-top: 100px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 400px;
+
+}
+.general-div .infos{
+    padding: 10px 20px;
+}
+
+.general-div .equilibrium-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.general-div .equilibrium-img img{
+    border-radius: 15px;
+    width: 350px;
+}
+.general-div .equilibrium-img img:hover{
+opacity: 0.5;
+}
+
+.general-div h1{
+color: white;
+font-size: 25px;
+}
+.general-div h1:hover, .general-div .avatar .name:hover{
+color: hsl(178, 100%, 50%);
+}
+
+.general-div .infos > p{
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+}
+
+.general-div .goods{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.general-div .goods h2{
+    color: hsl(178, 100%, 50%);
+}
+.general-div .goods p{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    background-color: hsl(215, 32%, 27%);
+    font-weight: 100;
+}
+
+.general-div .avatar{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+}
+
+.general-div .avatar img{
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.general-div .avatar .name{
+    margin-left: 6px;
+    color: white;
+}
