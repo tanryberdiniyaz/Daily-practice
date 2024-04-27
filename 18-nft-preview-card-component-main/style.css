@@ -26,7 +26,8 @@ body{
     width: 350px;
 }
 .general-div .equilibrium-img img:hover{
-opacity: 0.5;
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .general-div h1{
@@ -35,6 +36,7 @@ font-size: 25px;
 }
 .general-div h1:hover, .general-div .avatar .name:hover{
 color: hsl(178, 100%, 50%);
+cursor: pointer;
 }
 
 .general-div .infos > p{
@@ -53,6 +55,7 @@ color: hsl(178, 100%, 50%);
 }
 .general-div .goods p{
     color: hsl(215, 51%, 70%);
+    font-size: 23px;
 }
 
 hr{
