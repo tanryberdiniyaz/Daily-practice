@@ -1,0 +1,60 @@
+.main-div{
+    display: flex;
+    background-color: aquamarine;
+    width: 800px;
+    height: auto;
+}
+
+.first-part{
+    padding: 10px 50px;
+}
+
+.first-part h2{
+    font-size: 30px;
+}
+
+.first-part > p{
+font-size: 14px;
+}
+
+.subs{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-part img{
+    width: 400px;
+    height: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }    
+
+}
