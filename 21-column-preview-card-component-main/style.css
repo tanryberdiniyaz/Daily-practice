@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    width: 900px;
+    border-radius: 10px;
+}
+
+.first-div, .second-div, .third-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 25px;
+}
+
+.first-div{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.second-div{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-div{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.goods{
+    color: white;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: auto;
+}
+
+
+.goods p{
+    line-height: 1.5;
+    font-size: 15px;
+    height: auto;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+}
+
+.first-div .btn{
+    color: hsl(31, 77%, 52%);
+    border-color: hsl(31, 77%, 52%);
+}
+
+.second-div .btn{
+    color: hsl(184, 100%, 22%);
+    border-color: hsl(184, 100%, 22%);
+}
+
+.third-div .btn{
+    color: hsl(179, 100%, 13%);
+    border-color: hsl(179, 100%, 13%);;
+}
+
+/* 
+@media (max-width:1000px){
+    .main-div{
+        width: 600px;
+    }
+    
+} */
