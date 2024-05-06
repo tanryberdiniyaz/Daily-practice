@@ -1,0 +1,95 @@
+*{
+    font-family: "Kumbh Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.background-img-top{
+    width: 200px;
+    background-image: url(./images/bg-pattern-top.svg);
+}
+
+.main-div{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.background-top{
+    width: 100%;
+    height: 200px;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+
+.user-img img{
+    border-radius: 50%;
+    display: flex;
+    margin-top: -50%;
+    width: 180px;
+    height: auto;
+    border: 8px solid white;
+
+}
+.user-name{
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.user-name h1 span{
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.user-name p{
+    text-align: center;
+    font-size: 25px;
+    opacity: 0.6;
+}
+
+.line{
+    width: 100%;
+    border-top: 1.6px solid rgb(187, 186, 186);
+}
+
+.user-stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.user-stats div{
+    text-align: center;
+}
+
+.user-stats p{
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
