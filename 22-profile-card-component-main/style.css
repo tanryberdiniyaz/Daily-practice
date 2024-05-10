@@ -72,6 +72,7 @@ main{
 .line{
     width: 100%;
     border-top: 1.6px solid rgb(187, 186, 186);
+    opacity: 0.4;
 }
 
 .user-stats{
@@ -92,4 +93,46 @@ main{
     margin-top: -15px;
     margin-bottom: 30px;
     opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+
+    .main-div{
+        margin: 0 20px;
+        height: 460px;
+    }
+
+
+
+    .user-img img{
+        width: 150px;
+    }
+
+
+    .user-name{
+        font-size: 13px;
+    }
+
+    .user-name p{
+        font-size: 20px;
+    }
+
+    .user-stats{
+        width: 80%;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+    .user-stats p{
+        font-size: 15px;
+        margin-top: -15px;
+    }
 }
