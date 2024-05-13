@@ -147,3 +147,28 @@ main{
     line-height: 1.2;
     color: hsl(0, 0%, 100%);
 }
+
+
+
+@media (max-width:800px){
+
+    .main-div{
+        padding: 0;
+    }
+
+    .first-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+
+    }
+    .first-div .heading{
+
+    }
+
+    .first-div .heading h1{
+        max-width: 100%;
+    }
+   
+}
